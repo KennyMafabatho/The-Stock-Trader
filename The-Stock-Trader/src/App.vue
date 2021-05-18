@@ -20,5 +20,7 @@ import Header from './components/TheHeader.vue';
 </script>
 
 <style>
-
+  body{
+    padding: 30px;
+  }
 </style>
