@@ -11,7 +11,8 @@
             <div class="pull-left">
               <input type="number" class="form-control"
                placeholder="Quantity" 
-               v-model="quantity">
+               v-model="quantity"
+               :class="{danger: insufficientQuantity}">
             </div>
             <div class="pull-right">
               <button class="btn btn-success"
@@ -58,3 +59,8 @@ export default {
   
 }
 </script>
+<style scoped>
+.danger{
+  border: 1px solid red;
+}
+</style>
