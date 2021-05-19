@@ -15,6 +15,9 @@ import Header from './components/TheHeader.vue';
     export default {
       components:{
         appHeader: Header
+      },
+      created(){
+        this.$store.dispatch('setStocks');
       }
     }
 </script>
