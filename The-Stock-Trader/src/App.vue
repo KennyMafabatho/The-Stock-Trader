@@ -25,10 +25,19 @@ import Header from './components/TheHeader.vue';
 </script>
 
 <style>
-  body{
-    padding: 30px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+  * {
+    box-sizing: border-box;
   }
 
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
   .slide-enter-active{
     animation: slide-in 200ms ease-out forwards;
   }

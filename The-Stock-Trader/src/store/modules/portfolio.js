@@ -1,5 +1,5 @@
 const state = {
-  funds: 20000,
+  funds: 50000,
   stocks: []
 };
 
